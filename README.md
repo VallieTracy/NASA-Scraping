@@ -8,8 +8,8 @@ Follow these steps to run the application from your own desktop.  Otherwise scro
 3.) Type ``export FLASK_APP=app.py`` and then hit ENTER.  
 4.) Type ``flask run`` and then hit ENTER.      
 5.) Observe that the Flask server starts and tells you which port it's running on. Don't close this window.     
-6.) With the Flask server running, enter this address in your Chrome browser: http://127.0.0.1:5000/. You'll see that it loads the index page. 
-7.) After you've navigated to the page, click 'Scrape New Data' and the page will update with the NASA's most current Featured Mars Image, Mars Weather, and the latest Mars headline! (*see Note 1 below*)
+6.) With the Flask server running, enter this address in your Chrome browser: http://127.0.0.1:5000/. You'll see that it loads the index page.      
+7.) After you've navigated to the page, click 'Scrape New Data' and the page will update with the NASA's most current Featured Mars Image, Mars Weather, and the latest Mars headline! (*see Note 1 below*)      
 8.) And you can scroll to the bottom of the page at any time to view snapshots of Mars' four hemispheres.
 
 
