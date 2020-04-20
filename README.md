@@ -1,6 +1,6 @@
 # Web Scraping - Mission to Mars
 
-Follow these steps to run the application from your own desktop.  Otherwise scroll below to see a detailed description of what the project was asking for, and screenshots of the finished product can be found under...
+In order to run this application from your own desktop, please follow the steps below.  Otherwise scroll below to see a detailed description of the project requirements, and then you can navigate to the Screenshots folder to view the finished product.
 
 #### Please clone this repository to your desktop and then do the following:    
 1. Navigate to Mission_to_Mars, the folder that contains ``app.py`` and launch a GitBash (Windows) or Terminal (Mac). 
