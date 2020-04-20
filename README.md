@@ -14,9 +14,14 @@ Follow these steps to run the application from your own desktop.  Otherwise scro
       + Mars' Weather  
       + and the latest Mars headline!     
 8. And you can scroll to the bottom of the page at any time to view snapshots of Mars' four hemispheres.     
-**9. ENJOY!**
+9. ENJOY!
 
 *note: don't quite the chrome browser*
+
+#### Additional notes:
+* You'll need mongodb installed on your computer
+* You'll need to alter the filepath for chromedriver.  Might also need to download chrome driver.     
+* The note just above about not quitting chrome driver
 
 
 # Project Requirements:       
