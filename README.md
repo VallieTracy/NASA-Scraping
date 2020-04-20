@@ -14,7 +14,7 @@
 8. You will now see that the page will update with the most current:  
       + featured image on NASA's Mars homepage     
       + weather from NASA's Mars twitter feed  
-      + and the latest Mars headline!     
+      + and the latest Mars headline     
 9. And you can scroll to the bottom of the page at any time to view snapshots of Mars' four hemispheres.     
 10. ENJOY!
 
