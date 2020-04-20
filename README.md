@@ -3,7 +3,8 @@
 Follow these steps to run the application from your own desktop.  Otherwise scroll below to see a detailed description of what the project was asking for, and screenshots of the finished product can be found under...
 
 
-# Project Requirements     
+# Project Requirements:       
+## MISSION TO MARS
 
 ![mission_to_mars](Images/mission_to_mars.png)
 
