@@ -1,10 +1,12 @@
 # Web Scraping - Mission to Mars
 
+Follow these steps to run the application from your own desktop.  Otherwise scroll below to see a detailed description of what the project was asking for, and screenshots of the finished product can be found under...
+
 ![mission_to_mars](Images/mission_to_mars.png)
 
 In this assignment, you will build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what you need to do.
 
-Follow these steps to run the application from your own desktop.  Otherwise scroll below to see a detailed description of what the project was asking for, and screenshots of the finished product can be found under...
+
 
 ## Step 1 - Scraping
 
