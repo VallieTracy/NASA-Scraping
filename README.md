@@ -9,7 +9,7 @@ Follow these steps to run the application from your own desktop.  Otherwise scro
 4. Type ``flask run`` and then hit ENTER.      
 5. Observe that the Flask server starts and tells you which port it's running on. Don't close this window.     
 6. With the Flask server running, enter this address in your Chrome browser: http://127.0.0.1:5000/. You'll see that it loads the index page.      
-7. After you've navigated to the page, click 'Scrape New Data' (see note below) and the page will update with all the most current:  
+7. After you've navigated to the page, click 'Scrape New Data' (*see note below*) and the page will update with all the most current:  
       + Featured Mars Image on NASA's Mars homepage     
       + Mars' Weather  
       + and the latest Mars headline!     
