@@ -3,19 +3,19 @@
 Follow these steps to run the application from your own desktop.  Otherwise scroll below to see a detailed description of what the project was asking for, and screenshots of the finished product can be found under...
 
 #### Please clone this repository to your desktop and then do the following:    
-1.) Navigate to Mission_to_Mars, the folder that contains ``app.py`` and launch a GitBash (Windows) or Terminal (Mac). 
+1. Navigate to Mission_to_Mars, the folder that contains ``app.py`` and launch a GitBash (Windows) or Terminal (Mac). 
 
-2.) Type ``source activate PythonData`` and then hit ENTER.
-3.) Type ``export FLASK_APP=app.py`` and then hit ENTER.  
-4.) Type ``flask run`` and then hit ENTER.      
-5.) Observe that the Flask server starts and tells you which port it's running on. Don't close this window.     
-6.) With the Flask server running, enter this address in your Chrome browser: http://127.0.0.1:5000/. You'll see that it loads the index page.      
-7.) After you've navigated to the page, click 'Scrape New Data' and the page will update with all the most current:      
+2. Type ``source activate PythonData`` and then hit ENTER.
+3. Type ``export FLASK_APP=app.py`` and then hit ENTER.  
+4. Type ``flask run`` and then hit ENTER.      
+5. Observe that the Flask server starts and tells you which port it's running on. Don't close this window.     
+6. With the Flask server running, enter this address in your Chrome browser: http://127.0.0.1:5000/. You'll see that it loads the index page.      
+7. After you've navigated to the page, click 'Scrape New Data' and the page will update with all the most current:      
     -Featured Mars Image on NASA's Mars homepage     
     -Mars' Weather,  
     -and the latest Mars headline! (*see Note 1 below*)      
-8.) And you can scroll to the bottom of the page at any time to view snapshots of Mars' four hemispheres.     
-ENJOY!
+8. And you can scroll to the bottom of the page at any time to view snapshots of Mars' four hemispheres.     
+9. **ENJOY!**
 
 
 # Project Requirements:       
