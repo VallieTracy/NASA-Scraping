@@ -3,8 +3,9 @@
 Follow these steps to run the application from your own desktop.  Otherwise scroll below to see a detailed description of what the project was asking for, and screenshots of the finished product can be found under...
 
 Please clone this repository to your desktop and then do the following:     
-        1.) lglglg     
-        2.) fdfdfd
+1.) lglglg          
+      2.) fdfdf     
+    3.) I want to make some indents! ``code``
 
 
 # Project Requirements:       
