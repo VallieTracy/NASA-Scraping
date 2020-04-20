@@ -4,7 +4,7 @@
 *(Otherwise scroll further to see a detailed description of the project requirements, and then navigate to the Screenshots folder to view the finished product.)*
 
 #### Please clone this repository to your desktop and then do the following:    
-1. Navigate to Mission_to_Mars, the folder that contains ``app.py`` and launch a GitBash (Windows) or Terminal (Mac). 
+1. Navigate to Missions_to_Mars, the folder that contains ``app.py`` and launch a GitBash (Windows) or Terminal (Mac). 
 2. Type ``source activate PythonData`` and then hit ENTER.
 3. Type ``export FLASK_APP=app.py`` and then hit ENTER.  
 4. Type ``flask run`` and then hit ENTER.      
