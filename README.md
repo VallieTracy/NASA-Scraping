@@ -10,7 +10,7 @@
 4. Type ``flask run`` and then hit ENTER.      
 5. Observe that the Flask server starts and tells you which port it's running on. Don't close this window.     
 6. With the Flask server running, enter this address in your Chrome browser: http://127.0.0.1:5000/. You'll see that it loads the index page.      
-7. After you've navigated to the page, click 'Scrape New Data'. You will notice a new chrome browser window will open.  Do not close this window because this is how the Flask server is gathering the updated info.
+7. After you've navigated to the page, click 'Scrape New Data'. You will notice a new chrome browser window will open.  Do not close this window because this is how the Flask server is gathering the updated info. If you like, you can open it and watch it cycle through the various web pages!
 8. You will now see that the page will update with the most current:  
       + featured image on NASA's Mars homepage     
       + weather from NASA's Mars twitter feed  
