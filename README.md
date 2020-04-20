@@ -20,8 +20,8 @@
 
 #### Additional notes:
 * You'll need [mongodb compass](https://www.mongodb.com/products/compass) installed on your computer. 
-* You'll need to alter the filepath for chromedriver.  Might also need to download chrome driver.     
-* The note just above about not quitting chrome driver
+* You can find and adjust the chromdriver path in ``scrape_mars.py`` line 11.     
+
 
 
 
