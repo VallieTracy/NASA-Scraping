@@ -8,8 +8,8 @@ import requests as req
 
 # Define browser path
 def init_browser():
-   executable_path = {"executable_path":r"chromedriver"}
-   return Browser('chrome', **executable_path, headless=True) 
+   executable_path = {"executable_path":r"C:/bin/chromedriver"}
+   return Browser('chrome', **executable_path, headless=False) 
 
 # Define 'scrape' function
 def scrape():
