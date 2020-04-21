@@ -1,25 +1,28 @@
 # Web Scraping - Mission to Mars
 
-In order to run this application from your own desktop, please follow the steps below.  Otherwise scroll below to see a detailed description of the project requirements, and then you can navigate to the Screenshots folder to view the finished product.
+### In order to run this application from your own desktop, please follow the steps below. 
+*(Otherwise scroll further to see a detailed description of the project requirements, and then navigate to the Screenshots folder to view the finished product.)*
 
 #### Please clone this repository to your desktop and then do the following:    
-1. Navigate to Mission_to_Mars, the folder that contains ``app.py`` and launch a GitBash (Windows) or Terminal (Mac). 
+1. Navigate to Missions_to_Mars, the folder that contains ``app.py`` and launch a GitBash (Windows) or Terminal (Mac). 
 2. Type ``source activate PythonData`` and then hit ENTER.
 3. Type ``export FLASK_APP=app.py`` and then hit ENTER.  
 4. Type ``flask run`` and then hit ENTER.      
 5. Observe that the Flask server starts and tells you which port it's running on. Don't close this window.     
 6. With the Flask server running, enter this address in your Chrome browser: http://127.0.0.1:5000/. You'll see that it loads the index page.      
-7. After you've navigated to the page, click 'Scrape New Data' (*see note below*) and the page will update with the most current:  
+7. After you've navigated to the page, click 'Scrape New Data'. You will notice a new chrome browser window will open.  Do not close this window because this is how the Flask server is gathering the updated info. If you like, you can open it and watch it cycle through the various web pages!
+8. You will now see that the page will update with the most current:  
       + featured image on NASA's Mars homepage     
       + weather from NASA's Mars twitter feed  
-      + and the latest Mars headline!     
-8. And you can scroll to the bottom of the page at any time to view snapshots of Mars' four hemispheres.     
-9. ENJOY!
+      + and the latest Mars headline     
+9. And you can scroll to the bottom of the page at any time to view snapshots of Mars' four hemispheres.     
+10. ENJOY!
 
 #### Additional notes:
-* You'll need mongodb installed on your computer
-* You'll need to alter the filepath for chromedriver.  Might also need to download chrome driver.     
-* The note just above about not quitting chrome driver
+* You'll need [mongodb compass](https://www.mongodb.com/products/compass) installed on your computer. 
+* You can find and adjust the chromdriver path in ``scrape_mars.py`` line 11.   
+* Should you need chromedriver, you can [follow this link](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+
 
 
 
