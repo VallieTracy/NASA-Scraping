@@ -38,7 +38,7 @@ I broke the process into two parts.  The first part I performed solely in Jupyte
 
 I performed my initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.  The code is found in my [`mission_to_mars`](https://github.com/VallieTracy/NASA-Scraping/blob/master/Missions_to_Mars/mission_to_mars.ipynb) Jupyter notebook.
 
-### Mars News Feed     
+### (a.) Mars News Feed     
 
 Website used: https://mars.nasa.gov/news/
 
@@ -51,7 +51,7 @@ news_title = "NASA's Next Mars Mission to Investigate Interior of Red Planet"
 news_p = "Preparation of NASA's next spacecraft to Mars, InSight, has ramped up this summer, on course for launch next May from Vandenberg Air Force Base in central California -- the first interplanetary launch in history from America's West Coast."
 ```
 
-### JPL Mars Space Images - Featured Image     
+### (b.) JPL Mars Space Images - Featured Image     
 
 Website used: https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars
 
@@ -67,7 +67,7 @@ Tasks performed:
 featured_image_url = 'https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA16225_hires.jpg'
 ```
 
-### Mars Weather
+### (c.) Mars Weather
 
 * Visit the Mars Weather twitter account [here](https://twitter.com/marswxreport?lang=en) and scrape the latest Mars weather tweet from the page. Save the tweet text for the weather report as a variable called `mars_weather`.
 
@@ -76,13 +76,13 @@ featured_image_url = 'https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA1
 mars_weather = 'Sol 1801 (Aug 30, 2017), Sunny, high -21C/-5F, low -80C/-112F, pressure at 8.82 hPa, daylight 06:09-17:55'
 ```
 
-### Mars Facts
+### (d.) Mars Facts
 
 * Visit the Mars Facts webpage [here](https://space-facts.com/mars/) and use Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
 
 * Use Pandas to convert the data to a HTML table string.
 
-### Mars Hemispheres
+### (e.) Mars Hemispheres
 
 * Visit the USGS Astrogeology site [here](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars) to obtain high resolution images for each of Mar's hemispheres.
 
