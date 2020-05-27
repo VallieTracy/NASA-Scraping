@@ -36,7 +36,7 @@ I broke the process into two parts.  The first part I performed solely in Jupyte
 
 ## Step 1 - Scraping
 
-I performed my initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.  The code is found in my [`mission_to_mars`](https://github.com/VallieTracy/NASA-Scraping/blob/master/Missions_to_Mars/mission_to_mars.ipynb) Jupyter notebook.
+I performed my initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.  The code is found in my [`mission_to_mars`](https://github.com/VallieTracy/NASA-Scraping/blob/master/Missions_to_Mars/mission_to_mars.ipynb) Jupyter notebook.  I collected information on current Mars news, featured image, weather, planet facts, and hemisphere titles & images.  You can read about each of those below, or skip to Step 2, which talks about Flask and MongoDB.
 
 ### (a.) Mars News Feed     
 
