@@ -4,7 +4,7 @@
 ![mission_to_mars](Images/mission_to_mars.png)
 
 ### In order to run this application from your own desktop, please follow the steps below. 
-*(Otherwise scroll further to see a detailed description of my process, and then navigate to the Screenshots folder to view the finished product.)*
+*(This was a complex project, so I've written a detailed description of the process below should it interest you.  You can either clone the repo as layed out below, or scroll further to simiply see a detailed description of my process.  You can navigate to the Screenshots folder to view the finished product.)*
 
 #### Please clone this repository to your desktop and then do the following:    
 1. Navigate to Missions_to_Mars, the folder that contains ``app.py`` and launch a GitBash (Windows) or Terminal (Mac). 
@@ -118,16 +118,18 @@ Step 2 was to use MongoDB with Flask templating to create a new HTML page that d
 
 * I created a root route `/` that will querried my Mongo database and passed the mars data into an HTML template to display the data.
 
-* I finally created a template HTML file called `index.html` that takes the mars data dictionary and display all of the data in the appropriate HTML elements.  I used bootstrap from some of the formatting. 
+* I finally created a template HTML file called `index.html` that takes the mars data dictionary and display all of the data in the appropriate HTML elements.  I used Bootstrap in my HTML template.
 
 
 - - -
 
+<b>SCREENSHOTS OF MY FINAL WORK:</b>
+<br>
+<br>
+![mission_to_mars](Images/final_app_part1.png)
 
+![mission_to_mars](Images/final_app_part2.png)
 
-
-
-* Use Bootstrap to structure your HTML template.
 
 
 
