@@ -34,7 +34,7 @@ I broke the process into two parts.  The first part I performed solely in Jupyte
 
 
 
-## Step 1 - Scraping
+## STEP 1 - Scraping
 
 I performed my initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.  The code is found in my [`mission_to_mars`](https://github.com/VallieTracy/NASA-Scraping/blob/master/Missions_to_Mars/mission_to_mars.ipynb) Jupyter notebook.  I collected information on current Mars news, featured image, weather, planet facts, and hemisphere titles & images.  You can read about each of those below, or skip to Step 2, which talks about Flask and MongoDB.
 
@@ -108,44 +108,26 @@ hemisphere_image_urls = [
 
 - - -
 
-## Step 2 - MongoDB and Flask Application
+## STEP 2 - MongoDB and Flask Application
 
-Use MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
+Step 2 was to use MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
 
-* Start by converting your Jupyter notebook into a Python script called `scrape_mars.py` with a function called `scrape` that will execute all of your scraping code from above and return one Python dictionary containing all of the scraped data.
+* I first converted my Jupyter notebook into a Python script called `scrape_mars.py` with a function called `scrape` that executed all of my scraping code from above and returned one Python dictionary, called `mars_dictionary`, containing all of the scraped data.
 
-* Next, create a route called `/scrape` that will import your `scrape_mars.py` script and call your `scrape` function.
+* Next, I created a route called `/scrape` that imported my `scrape_mars.py` script and called my `scrape` function.
 
-  * Store the return value in Mongo as a Python dictionary.
+* I created a root route `/` that will querried my Mongo database and passed the mars data into an HTML template to display the data.
 
-* Create a root route `/` that will query your Mongo database and pass the mars data into an HTML template to display the data.
+* I finally created a template HTML file called `index.html` that takes the mars data dictionary and display all of the data in the appropriate HTML elements.  I used bootstrap from some of the formatting. 
 
-* Create a template HTML file called `index.html` that will take the mars data dictionary and display all of the data in the appropriate HTML elements. Use the following as a guide for what the final product should look like, but feel free to create your own design.
-
-![final_app_part1.png](Images/final_app_part1.png)
-![final_app_part2.png](Images/final_app_part2.png)
 
 - - -
 
-## Step 3 - Submission
 
-To submit your work to BootCampSpot, create a new GitHub repository and upload the following:
 
-1. The Jupyter Notebook containing the scraping code used.
 
-2. Screenshots of your final application.
-
-3. Submit the link to your new repository to BootCampSpot.
-
-## Hints
-
-* Use Splinter to navigate the sites when needed and BeautifulSoup to help find and parse out the necessary data.
-
-* Use Pymongo for CRUD applications for your database. For this homework, you can simply overwrite the existing document each time the `/scrape` url is visited and new data is obtained.
 
 * Use Bootstrap to structure your HTML template.
 
-### Copyright
 
-Trilogy Education Services © 2019. All Rights Reserved.
 
