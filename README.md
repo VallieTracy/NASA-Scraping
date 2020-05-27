@@ -30,7 +30,7 @@
 
 
 # PROCESS
-I broke the process into two parts.  The first part I performed solely in Jupyter Notebook.  The second part is where I utilzed Flask and MongoDB to create a web application. Below, I break it down further for you to follow along.
+I broke the process into two parts.  The first part I performed solely in Jupyter Notebook.  The second part is where I utilzed Flask and MongoDB to create a web application. Continue reading for a more in-depth breakdown of my process.
 
 
 
@@ -42,13 +42,12 @@ I performed my initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, a
 
 Website used: https://mars.nasa.gov/news/
 
-* I used the [NASA Mars News Site](https://mars.nasa.gov/news/) and collect the latest News Title and Paragraph Text. Assign the text to variables that you can reference later.
-
+* I collected the latest New Title & Paragraph Text in this step.  I stored the text to a variable for later reference (thinking ahead to the Flask portion).
 ```python
-# Example:
-news_title = "NASA's Next Mars Mission to Investigate Interior of Red Planet"
+# My resulting code:
+news_title = "NASA's Curiosity Keeps Rolling As Team Operates Rover From Home"
 
-news_p = "Preparation of NASA's next spacecraft to Mars, InSight, has ramped up this summer, on course for launch next May from Vandenberg Air Force Base in central California -- the first interplanetary launch in history from America's West Coast."
+news_p = "The team has learned to meet new challenges as they work remotely on the Mars mission."
 ```
 
 ### (b.) JPL Mars Space Images - Featured Image     
