@@ -4,7 +4,7 @@
 ![mission_to_mars](Images/mission_to_mars.png)
 
 ### In order to run this application from your own desktop, please follow the steps below. 
-*(This was a complex project, so I've written a detailed description of the process below should it interest you.  You can either clone the repo as layed out below, or scroll further to simiply see a detailed description of my process.  You can navigate to the Screenshots folder to view the finished product.)*
+*(This was a complex project, so I've written a detailed description of the process below should it interest you.  You can either clone the repo as layed out below, or scroll to "PROCESS" to simiply see a detailed description of my process.  You can navigate to the Screenshots folder to view the finished product.)*
 
 #### Please clone this repository to your desktop and then do the following:    
 1. Navigate to Missions_to_Mars, the folder that contains ``app.py`` and launch a GitBash (Windows) or Terminal (Mac). 
