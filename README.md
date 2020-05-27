@@ -1,4 +1,4 @@
-# Latest Mars News
+# Current Mars News
 *Utilizing Flask API to build a web application that scrapes various websites for data related to Mars and display the information in a single HTML page.*
 
 ![mission_to_mars](Images/mission_to_mars.png)
