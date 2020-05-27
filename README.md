@@ -42,9 +42,10 @@ I performed my initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, a
 
 Website used: https://mars.nasa.gov/news/
 
-* I collected the latest New Title & Paragraph Text in this step.  I stored the text to a variable for later reference (thinking ahead to the Flask portion).
+* I collected the latest News Title & Paragraph Text in this step.  I stored the text to a variable for later reference (thinking ahead to the Flask portion).
 ```python
-# My resulting code:
+# My resulting Title and Text:
+
 news_title = "NASA's Curiosity Keeps Rolling As Team Operates Rover From Home"
 
 news_p = "The team has learned to meet new challenges as they work remotely on the Mars mission."
@@ -54,16 +55,12 @@ news_p = "The team has learned to meet new challenges as they work remotely on t
 
 Website used: https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars
 
-Tasks performed:     
-* Used splinter to navigate the site and found the image url for the current Featured Mars Image and assigned the url string to a variable.
-
-* Make sure to find the image url to the full size `.jpg` image.
-
-* Make sure to save a complete url string for this image.
+* The JPL featured image of Mars changes multiple times per day.  In order to store that image into a variable, I used splinter to navigate the site and find the image url.  I then assigned the url string to a variable, making sure to use the full-size `.jpg` image and capture the complete url string.
 
 ```python
-# Example:
-featured_image_url = 'https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA16225_hires.jpg'
+# My resulting url string:
+
+featured_image_url = 'https://www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA16565-1920x1200.jpg'
 ```
 
 ### (c.) Mars Weather
