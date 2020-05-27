@@ -4,7 +4,7 @@
 ![mission_to_mars](Images/mission_to_mars.png)
 
 ### In order to run this application from your own desktop, please follow the steps below. 
-*(Otherwise scroll further to see a detailed description of the project requirements, and then navigate to the Screenshots folder to view the finished product.)*
+*(Otherwise scroll further to see a detailed description of my process, and then navigate to the Screenshots folder to view the finished product.)*
 
 #### Please clone this repository to your desktop and then do the following:    
 1. Navigate to Missions_to_Mars, the folder that contains ``app.py`` and launch a GitBash (Windows) or Terminal (Mac). 
@@ -29,24 +29,20 @@
 
 
 
-# Project Requirements:       
-## MISSION TO MARS
-
-![mission_to_mars](Images/mission_to_mars.png)
-
-In this assignment, you will build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what you need to do.
+# PROCESS
+I broke the process into two parts.  The first part I performed solely in Jupyter Notebook.  The second part is where I utilzed Flask and MongoDB to create a web application. Below, I break it down further for you to follow along.
 
 
 
 ## Step 1 - Scraping
 
-Complete your initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
+I performed my initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.  The code is found in my [`mission_to_mars`](https://github.com/VallieTracy/NASA-Scraping/blob/master/Missions_to_Mars/mission_to_mars.ipynb) Jupyter notebook.
 
-* Create a Jupyter Notebook file called `mission_to_mars.ipynb` and use this to complete all of your scraping and analysis tasks. The following outlines what you need to scrape.
+### Mars News Feed     
 
-### NASA Mars News
+Website used: https://mars.nasa.gov/news/
 
-* Scrape the [NASA Mars News Site](https://mars.nasa.gov/news/) and collect the latest News Title and Paragraph Text. Assign the text to variables that you can reference later.
+* I used the [NASA Mars News Site](https://mars.nasa.gov/news/) and collect the latest News Title and Paragraph Text. Assign the text to variables that you can reference later.
 
 ```python
 # Example:
@@ -55,11 +51,12 @@ news_title = "NASA's Next Mars Mission to Investigate Interior of Red Planet"
 news_p = "Preparation of NASA's next spacecraft to Mars, InSight, has ramped up this summer, on course for launch next May from Vandenberg Air Force Base in central California -- the first interplanetary launch in history from America's West Coast."
 ```
 
-### JPL Mars Space Images - Featured Image
+### JPL Mars Space Images - Featured Image     
 
-* Visit the url for JPL Featured Space Image [here](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars).
+Website used: https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars
 
-* Use splinter to navigate the site and find the image url for the current Featured Mars Image and assign the url string to a variable called `featured_image_url`.
+Tasks performed:     
+* Used splinter to navigate the site and found the image url for the current Featured Mars Image and assigned the url string to a variable.
 
 * Make sure to find the image url to the full size `.jpg` image.
 
