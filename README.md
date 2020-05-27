@@ -1,4 +1,7 @@
-# Web Scraping - Mission to Mars
+# Latest Mars News
+*Utilizing Flask API to build a web application that scrapes various websites for data related to Mars and display the information in a single HTML page.*
+
+![mission_to_mars](Images/mission_to_mars.png)
 
 ### In order to run this application from your own desktop, please follow the steps below. 
 *(Otherwise scroll further to see a detailed description of the project requirements, and then navigate to the Screenshots folder to view the finished product.)*
