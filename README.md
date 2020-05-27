@@ -30,7 +30,7 @@
 
 
 # PROCESS
-I broke the process into two parts.  The first part I performed solely in Jupyter Notebook.  The second part is where I utilzed Flask and MongoDB to create a web application. Continue reading for a more in-depth breakdown of my process.
+I broke the process into two parts.  The first part I performed solely in Jupyter Notebook.  The second part is where I utilzed Flask and MongoDB to create a web application. 
 
 
 
