@@ -63,33 +63,41 @@ Website used: https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars
 featured_image_url = 'https://www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA16565-1920x1200.jpg'
 ```
 
-### (c.) Mars Weather
+### (c.) Mars Weather     
+Website used: https://twitter.com/marswxreport?lang=en
 
-* Visit the Mars Weather twitter account [here](https://twitter.com/marswxreport?lang=en) and scrape the latest Mars weather tweet from the page. Save the tweet text for the weather report as a variable called `mars_weather`.
+* I accessed Mars' Twitter feed to get the current weather.  The most current weather is in the top pinned tweet, so I scraped the site for that saved that tweet text into a variable called `mars_weather`.     
+* NOTE: I had difficulty with this portion when I used the chromedriver method, so I switched to the requests.get method.  You'll see the same note in the code.
 
 ```python
-# Example:
-mars_weather = 'Sol 1801 (Aug 30, 2017), Sunny, high -21C/-5F, low -80C/-112F, pressure at 8.82 hPa, daylight 06:09-17:55'
+# Weather variable:
+
+mars_weather = 'InSight sol 496 (2020-04-18) low -94.6ºC (-138.4ºF) high -6.2ºC (20.9ºF)
+winds from the SW at 4.6 m/s (10.3 mph) gusting to 15.7 m/s (35.2 mph)
+pressure at 6.60 hPapic.twitter.com/mrkGEj5txc'
 ```
 
-### (d.) Mars Facts
+### (d.) Mars Facts     
+Website used: https://space-facts.com/mars/
 
-* Visit the Mars Facts webpage [here](https://space-facts.com/mars/) and use Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
+* There's a website that contains facts about Mars, some written in basic text format, but also there are tables within the text.  I used Pandas to scrape the first table which contains details about the planet diameter, mass, etc.  
 
-* Use Pandas to convert the data to a HTML table string.
+* I then used Pandas to convert the data to an HTML table string.     
 
-### (e.) Mars Hemispheres
+* Please see my `mission_to_mars.ipynb` to see the code.
 
-* Visit the USGS Astrogeology site [here](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars) to obtain high resolution images for each of Mar's hemispheres.
+### (e.) Mars Hemispheres     
+Website used: https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars
 
-* You will need to click each of the links to the hemispheres in order to find the image url to the full resolution image.
+* Mars has four hemispheres.  My goal here was to obtain high resolution images for each.  I found that I had to click each of the links to the individual hemispheres in order to find the image url to the full resolution image.
 
-* Save both the image url string for the full resolution hemisphere image, and the Hemisphere title containing the hemisphere name. Use a Python dictionary to store the data using the keys `img_url` and `title`.
+* I then saved both the image url string for the full resolution hemisphere image, and the Hemisphere title containing the hemisphere name. I used a Python dictionary to store the data using the keys `img_url` and `title`.
 
-* Append the dictionary with the image url string and the hemisphere title to a list. This list will contain one dictionary for each hemisphere.
+* Finally, I appended the dictionary with the image url string and the hemisphere title to a list. The list ultimately contained one dictionary for each hemisphere.
 
 ```python
-# Example:
+# The resulting list of dictionaries:
+
 hemisphere_image_urls = [
     {"title": "Valles Marineris Hemisphere", "img_url": "..."},
     {"title": "Cerberus Hemisphere", "img_url": "..."},
