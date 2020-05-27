@@ -124,8 +124,8 @@ Step 2 was to use MongoDB with Flask templating to create a new HTML page that d
 - - -
 
 # SCREENSHOTS OF MY FINAL WORK: 
-<br>
-<br>
+
+
 ![mission_to_mars](Images/final_app_part1.png)
 
 ![mission_to_mars](Images/final_app_part2.png)
